@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Malweb  </title>
+</head>
+<body> 
+    <div id="main">
+        <nav>
+            <div class="icon"><img id="logo" src="webshield.png"></div>
+            <div class="cntr-nav">
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Feedback</a>
+                <a href="#">Contact</a>
+            </div>
+            <i class="ri-menu-fill"></i>
+        </nav>
+        <div class="one">
+            <h1>BROWSE HERE</h1>
+            <img id="leaf"  src="pictures/computer-icons-virus-computer-font-others-removebg-preview.png">
+            <!-- <a href="#">Home</a> -->
+            <!-- <IMG id="searchbar" src="pictures/d4705544373301dfa969b6efed52bfc3-removebg-preview (1).png"></a> -->
+            <a href="https://www.google.com/">
+            <img id="fanta" src="pictures/m2H7H7H7H7b1N4d3-removebg-preview (1).png" alt="click here"></a>
+            <a href="https://www.google.com/search?q=alll+about+malicious+url+virus&oq=alll+about+malicious+ur&gs_lcrp=EgZjaHJvbWUqCQgDECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKABMgkIBBAhGAoYoAHSAQkxODM1OWowajmoAgiwAgE&sourceid=chrome&ie=UTF-8">
+            <img id="orange" src="pictures/kisspng-influenza-a-virus-influenza-a-virus-infection-path-5ae5f41f6547a9.2965233715250196794149_-_Copy-removebg-preview.png" alt=""></a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Browse your URL" id="search-input">
+    <button type="submit" onclick="search()">
+        <img id="searchicon"src="image.1.png" alt="Search Icon">
+    </button>
+        </div>
+        <script>
+            function search() {
+                const query = document.getElementById('search-input').value;
+                window.location.href = query;
+            }
+        </script>
+        <div class="two">
+            <div class="lft-two">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#e04428" d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z" transform="translate(100 100)" />
+                  </svg>
+            </div>
+            <div class="rght-two">
+                <h1>Malicious URLs</h1>
+                <p>Malicious URLs are links created to promote scams or fraudulent activity. They are persuasive in nature, intending to gain sensitive and personal information. Clicking on such links can lead to a range of consequences, from having your personal data stolen to being the victim of a cyberattack.A malicious website is any website that's been designed to cause harm. In this article, we'll focus on phishing websites and malware websites. A phishing website – sometimes called a “spoof” or “lookalike” website – steals your data.</p>
+            </div>
+        </div>
+        <div class="three">
+            <div class="card">
+                <img id="barecode" src="pictures/https___meta-q.cdn.bubble.io_f1712687886699x747220493123177900_Barcode20code_reader-removebg-preview (1).png" alt="">
+                <h1>Url scanner</h1>
+                <button>Browse here</button>
+            </div>
+            <div class="card">
+                <h1>url links</h1>
+                <button id="browseButton">Browse here</button>
+            </div>
+            <div class="card">
+                <img id="maliciousurl" src="pictures/images-removebg-preview.png" alt="">
+                <h1>Malicious urls</h1>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
